@@ -7,7 +7,7 @@ import java.awt.event.*;
 import javax.swing.*;
 public class Chess extends JFrame implements MouseListener
 {
-    int square= 200;
+    int square= 100;
     static int piece[][] = new int[40][2];
     static int board[][] = new int[8][8];
     int tempp[][]=new int[40][2];
