@@ -1,12 +1,8 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+2-Player Chess
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Author: Jay Sharma (JaySharma1048576)
+Created: April 2018 - June 2018
+Uploaded: May 2021
+Playable at: https://gitpod.io/#https://github.com/JaySharma1048576/Chess
