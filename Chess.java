@@ -465,14 +465,14 @@ public class Chess extends JFrame implements MouseListener
             g.setColor(Color.black);
             g.fillRect(50,25,105,20);
             g.setColor(Color.white);
-            g.setFont(new Font("Times New Roman",Font.PLAIN,18));   
+            g.setFont(new Font("Times New Roman",Font.PLAIN,15));   
             g.drawString("Move : Black",55,41);
         }
         else if(turn==1&&!wmate&&!draw)
         {
             g.setColor(Color.black);
             g.drawRect(50,55+square*8,111,20);            
-            g.setFont(new Font("Times New Roman",Font.PLAIN,18));
+            g.setFont(new Font("Times New Roman",Font.PLAIN,15));
             g.drawString("Move : White",55,71+square*8);
         }
         if(bmate&&!preview)
@@ -484,7 +484,7 @@ public class Chess extends JFrame implements MouseListener
             catch(Exception e){}
             g.setColor(Color.yellow);
             g.fillRoundRect(51+square*2+(square-60)*2,51+square*3+square-60,239,119,50,50);
-            g.setFont(new Font("Cambria",3,16));
+            g.setFont(new Font("Cambria",3,15));
             g.setColor(Color.blue);
             g.drawString("CHECKMATE!!",120+square*2+(square-60)*2,68+square*3+square-60);
             g.drawString("White Wins.",125+square*2+(square-60)*2,88+square*3+square-60);
@@ -504,7 +504,7 @@ public class Chess extends JFrame implements MouseListener
             catch(Exception e){}
             g.setColor(Color.yellow);
             g.fillRoundRect(51+square*2+(square-60)*2,51+square*3+square-60,239,119,50,50);
-            g.setFont(new Font("Cambria",3,16));
+            g.setFont(new Font("Cambria",3,15));
             g.setColor(Color.blue);
             g.drawString("CHECKMATE!!",120+square*2+(square-60)*2,68+square*3+square-60);
             g.drawString("Black Wins.",125+square*2+(square-60)*2,88+square*3+square-60);
@@ -524,7 +524,7 @@ public class Chess extends JFrame implements MouseListener
             catch(Exception e){}
             g.setColor(Color.yellow);
             g.fillRoundRect(51+square*2+(square-60)*2,51+square*3+square-60,239,119,50,50);
-            g.setFont(new Font("Cambria",3,16));
+            g.setFont(new Font("Cambria",3,15));
             g.setColor(Color.blue);
             g.drawString("STALEMATE!!",120+square*2+(square-60)*2,68+square*3+square-60);
             g.drawString("It is a draw.",125+square*2+(square-60)*2,88+square*3+square-60);
@@ -544,7 +544,7 @@ public class Chess extends JFrame implements MouseListener
             catch(Exception e){}
             g.setColor(Color.yellow);
             g.fillRoundRect(51+square*2+(square-60)*2,51+square*3+square-60,239,119,50,50);
-            g.setFont(new Font("Cambria",3,16));
+            g.setFont(new Font("Cambria",3,15));
             g.setColor(Color.blue);
             g.drawString("INSUFFICIENT PIECES!!",90+square*2+(square-60)*2,68+square*3+square-60);
             g.drawString("It is a draw.",130+square*2+(square-60)*2,88+square*3+square-60);
